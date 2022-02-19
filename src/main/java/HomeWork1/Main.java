@@ -14,7 +14,6 @@ public class Main {
         changePositions(testArray, 0,2 );                           //Задача 1
         System.out.println(Arrays.toString(testArray) + "\n");
 
-
         //БольшаяЗадача
         Box<Orange> orangeBox=new Box<>("Первая коробка апельсинов");
         orangeBox.addFruit(new Orange(), new Orange());
